@@ -31,7 +31,7 @@ DATABASES = {
 SECRET_KEY = 'django-insecure-@dc(-vr0ilfur-$j%=9t9&=!v^s@er56w1%p02ueqnwodo8jhs'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -67,7 +67,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
-    "https://meuformulario.surge.sh/",
+    "https://meuformulario.surge.sh",
 ]
 
 

@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework.routers import SimpleRouter
+from rest_framework.routers import DefaultRouter
 from core import views
-router = SimpleRouter()
+router = DefaultRouter()
 
 router.register(r'form', views.FormViewSet, basename='formulario')
 router.register(r'hobby', views.HobbyViewSet, basename='hobby')
